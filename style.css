@@ -159,3 +159,99 @@ html, body{width: 100%; height: 100%;}
     line-height:20px;
     padding: 12px 22px;
 }
+
+
+/* ------Third Container of Snippets=------- */
+
+.third-container{
+    position: absolute;
+    top:570px;
+}
+
+.third-inner{
+    position:absolute;
+    /* border: 6px solid blue; */
+    left:293px;
+}
+
+.box-container{
+    display: flex;
+    width: 1000px;
+    height: 143.39px;
+    gap:24px;
+}
+
+.boxs{
+    display: block;
+    padding: 1.25rem;
+    height: 100%;
+    width: 25%;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(103, 113, 133, 0.2) 0.75rem 1.5rem 4rem 0rem;
+}
+
+.first-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.Short-form{
+    color:rgb(103, 113, 133);
+}
+
+.buy-trade button{
+    padding: 4px 8px;
+    border:none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.buy-trade button.buy{
+    color: #5322e5;
+    background-color:#efecfe;
+}
+
+.buy-trade button.trade{
+    color: #00994C;
+    background-color:#e6faec;
+}
+
+.buy-trade button.buy:hover{
+    background-color:#ded8fd; 
+}
+
+.buy-trade button.trade:hover{
+    background-color:#d1f0db; 
+}
+
+.second-box{
+    text-decoration: none;
+    color:black;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.third-box{
+    display: flex;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.third-box p:nth-child(2){color: green;}
+
+.more-price{
+    display: flex;
+    gap:5px;
+    cursor: pointer;
+}
+.more-price:hover{
+   color: rgb(12, 108, 242);
+}
+
+/* --------------------------------------------------- */
